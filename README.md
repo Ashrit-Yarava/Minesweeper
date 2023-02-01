@@ -5,8 +5,9 @@
 ## Sample Demonstration
 
 * The below demonstration is done on a $16 \times 30$ board with $99$ bombs to be on par with the hardest difficulty on [speedrun.com](https://www.speedrun.com/minesweeper?h=Expert_w_RNG_Manipulation&x=9kvp16ek). The starting square is chosen to be $(2,2)$ for this example.
+* Runs of the algorithm so far can be found in the `games/` folder.
 
-<img src="games/2023-02-01T01:27:55.gif" alt="2023-02-01T01:27:55" style="zoom:100%;" />
+<img src="games/2023-02-01T01:27:55.gif" alt="Sample Algorithm" style="zoom:100%;" />
 
 ## Algorithm Description
 
@@ -38,7 +39,7 @@
 
    2. Identify bombs.
 
-      1. For each selected square, calculate $\beta $ and $n$, Where $\beta$ is the $\#$ of bombs remaining and $n$ is the number of squares remaining. If $\beta = n$, then the remaining squares are all bombs. Label them as such.
+      1. For each selected square, calculate $\beta$ and $n$, Where $\beta$ is the # of bombs remaining and $n$ is the number of squares remaining. If $\beta = n$, then the remaining squares are all bombs. Label them as such.
 
 2. Probability Calculation.
 
