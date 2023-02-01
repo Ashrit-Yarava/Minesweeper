@@ -6,7 +6,7 @@
 
 * The below demonstration is done on a $16 \times 30$ board with $99$ bombs to be on par with the hardest difficulty on [speedrun.com](https://www.speedrun.com/minesweeper?h=Expert_w_RNG_Manipulation&x=9kvp16ek). The starting square is chosen to be $(2,2)$ for this example.
 
-![2023-02-01T01:27:55](games/2023-02-01T01:27:55.gif)
+<img src="games/2023-02-01T01:27:55.gif" alt="2023-02-01T01:27:55" style="zoom:100%;" />
 
 ## Algorithm Description
 
