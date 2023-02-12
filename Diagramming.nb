@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     32009,        822]
-NotebookOptionsPosition[     31660,        808]
-NotebookOutlinePosition[     32053,        824]
-CellTagsIndexPosition[     32010,        821]
+NotebookDataLength[     34359,        887]
+NotebookOptionsPosition[     33784,        869]
+NotebookOutlinePosition[     34177,        885]
+CellTagsIndexPosition[     34134,        882]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -804,7 +804,68 @@ Cell[BoxData[
          RowBox[{"topRevealChoices", ",", " ", 
           RowBox[{"Max", "[", "probabilities", "]"}], ",", " ", "bombs"}], 
          "}"}], "]"}], ";"}]}], "\[IndentingNewLine]", "]"}]}]}]}]], "Input",E\
-xpressionUUID->"e70a67f9-baf6-43f4-835b-24a69a6d4486"]
+xpressionUUID->"e70a67f9-baf6-43f4-835b-24a69a6d4486"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"sampleBoard", "=", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"-", "1"}], ",", 
+       RowBox[{"-", "1"}], ",", 
+       RowBox[{"-", "1"}]}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"-", "1"}], ",", "1", ",", 
+       RowBox[{"-", "1"}]}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"-", "1"}], ",", 
+       RowBox[{"-", "1"}], ",", 
+       RowBox[{"-", "1"}]}], "}"}]}], "}"}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{"display", "[", "sampleBoard", "]"}]}], "Input",
+ CellChangeTimes->{{3.88422338797401*^9, 3.884223417516101*^9}},
+ CellLabel->"In[67]:=",ExpressionUUID->"a5026b64-a3ef-4b96-beb4-9628cf350e84"],
+
+Cell[BoxData[
+ GraphicsBox[{
+   RasterBox[{{{1., 1., 1.}, {1., 1., 1.}, {1., 1., 1.}}, {{1., 1., 1.}, {
+    0.45, 0.45, 0.45}, {1., 1., 1.}}, {{1., 1., 1.}, {1., 1., 1.}, {1., 1., 
+    1.}}}, {{0, 0}, {3, 3}}, {0, 1}], {
+    {GrayLevel[
+      NCache[-1 + GoldenRatio, 0.6180339887498949]], 
+     StyleBox[
+      LineBox[{{{0, 3}, {3, 3}}, {{0, 2}, {3, 2}}, {{0, 1}, {3, 1}}, {{0, 
+       0}, {3, 0}}}],
+      Antialiasing->False]}, 
+    {GrayLevel[
+      NCache[-1 + GoldenRatio, 0.6180339887498949]], 
+     StyleBox[
+      LineBox[{{{0, 0}, {0, 3}}, {{1, 0}, {1, 3}}, {{2, 0}, {2, 3}}, {{3, 
+       0}, {3, 3}}}],
+      Antialiasing->False]}}},
+  Frame->False,
+  FrameLabel->{None, None},
+  FrameTicks->{{None, None}, {None, None}},
+  GridLinesStyle->Directive[
+    GrayLevel[0.5, 0.4]],
+  Method->{
+   "DefaultBoundaryStyle" -> Automatic, 
+    "DefaultGraphicsInteraction" -> {
+     "Version" -> 1.2, "TrackMousePosition" -> {True, False}, 
+      "Effects" -> {
+       "Highlight" -> {"ratio" -> 2}, "HighlightPoint" -> {"ratio" -> 2}, 
+        "Droplines" -> {
+         "freeformCursorMode" -> True, 
+          "placement" -> {"x" -> "All", "y" -> "None"}}}}, "DefaultPlotStyle" -> 
+    Automatic}]], "Output",
+ CellChangeTimes->{{3.884223415551469*^9, 3.884223417838255*^9}},
+ CellLabel->"Out[68]=",ExpressionUUID->"72cf0240-54af-4856-97f6-3567be8fe975"]
+}, Open  ]]
 },
 WindowSize->{808, 911},
 WindowMargins->{{181, Automatic}, {Automatic, 4}},
@@ -823,7 +884,11 @@ CellTagsIndex->{}
 *)
 (*NotebookFileOutline
 Notebook[{
-Cell[558, 20, 31098, 786, 2698, "Input",ExpressionUUID->"e70a67f9-baf6-43f4-835b-24a69a6d4486"]
+Cell[558, 20, 31098, 786, 2698, "Input",ExpressionUUID->"e70a67f9-baf6-43f4-835b-24a69a6d4486"],
+Cell[CellGroupData[{
+Cell[31681, 810, 726, 21, 52, "Input",ExpressionUUID->"a5026b64-a3ef-4b96-beb4-9628cf350e84"],
+Cell[32410, 833, 1358, 33, 376, "Output",ExpressionUUID->"72cf0240-54af-4856-97f6-3567be8fe975"]
+}, Open  ]]
 }
 ]
 *)
